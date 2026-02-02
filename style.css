@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.controls, .opacity-controls {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    align-items: center;
+}
+
+.controls input {
+    flex: 1;
+    padding: 6px;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+iframe {
+    width: 50%;
+    height: 100%;
+    border: none;
+}
